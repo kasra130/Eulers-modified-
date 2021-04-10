@@ -1,5 +1,5 @@
-dy = @(x,y)0.5*y^(2) + 0.04*x^6;
-h=0.02;
+dy = @(x,y)0.5*y^(2) + 0.04*x^6; %Enter the equation here
+h=0.02;            %stepsize
 y=1;   %%initial conition 
 x0=0;      %% start 
 xf=0.2;    %% end value 
